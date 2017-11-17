@@ -2,4 +2,4 @@
 Known languages
 - [brainfuck](https://esolangs.org/wiki/Brainfuck)
 - [pbrain](https://esolangs.org/wiki/Pbrain)
-- [brainfuck](https://esolangs.org/wiki/Ook!) 
+- [Ook!](https://esolangs.org/wiki/Ook!) (short Version)
