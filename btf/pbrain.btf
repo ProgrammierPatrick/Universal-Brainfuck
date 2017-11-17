@@ -1,0 +1,16 @@
+'HEAD
+pbrain
+size 100
+pos 50
+'BODY
+> MVL
+< MVR
++ INC
+- DEC
+. PTC
+, GTC
+[ SOL
+] EOL
+( SOP
+) EOP
+: RUN
