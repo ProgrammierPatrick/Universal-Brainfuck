@@ -1,0 +1,74 @@
+////////////////////////////////
+// Brainfuck Translation File //
+////////////////////////////////
+
+###########
+# General #
+###########
+
+A btf file has 2 sections ('HEAD, 'BODY)
+In 'HEAD flags can be defined
+In 'BODY the translation table is defined
+
+
+################
+# Common Flags #
+################
+
+
+##########
+# Params #
+##########
+
+
+
+/////////////////////////
+// Brainfuck Assembler //
+/////////////////////////
+
+##############
+# Arithmetic #
+##############
+
+INC				increases the value on tape
+DEC				decreases the valuee on tape
+ADD_AC(num)		adds num to accumulator
+SUB_AC(num)		subtracts num to accumulator
+
+
+##########
+# Memory #
+##########
+
+WAC				writes value from accumulator to tape
+RAC				reads value from tape to accumulator			
+MVL				moves tape to the left
+MVR				moves tape to the right
+
+
+###########
+# Control #
+###########
+
+SOL				start of loop. while(tape!=0)				
+EOL				end of loop
+SOP				start of procedure. gives procedur the value stored on tape
+EOP				end of procedure
+RUN				runs procedur with value on tape
+SRT(id)			set new return point named id
+GOT(id)			go to return point id
+SOI_AC			start of if. if(acc!=0)
+EOI_AC			end of if
+SOC				start of comment
+EOC				end of comment
+
+#######
+# I/O #
+#######
+
+GTC				saves input on tape
+PTC				outout value from tape
+GTC_AC			saves input to accumulator
+PTC_AC			output value of accumlator
+
+

@@ -1,0 +1,35 @@
+'HEAD
+abc
+size 100
+pos 50
+'BODY
+A ADD_AC(1)
+B ADD_AC(2)
+C ADD_AC(4)
+D ADD_AC(8)
+E ADD_AC(16)
+F ADD_AC(32)
+G ADD_AC(64)
+H ADD_AC(128)
+
+a SUB_AC(1)
+b SUB_AC(2)
+c SUB_AC(4)
+d SUB_AC(8)
+e SUB_AC(16)
+f SUB_AC(32)
+g SUB_AC(64)
+h SUB_AC(128)
+
++ WAC
+- RAC
+> MVL
+< MVR
+/ SRT({ret<-rand})
+\\ GOT({ret->})
+[ SOI
+] EOI
+? GTC_AC
+{ SOC
+} EOC
+! PTC_AC
